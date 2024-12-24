@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rye&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #000000;
+    
+}
+
+.logo {
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    display: block;
+}
+
+
+header {
+    background-image: url(BackgroundImage.jpg);
+    /* width: 100vw; */
+    height: 750px;
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header .box {
+    width: 100vw;
+    height: 675px;
+    background-color: black;
+    opacity: 0.66;
+    position: absolute;
+    top: 0px;
+    
+}
+
+nav {
+    width: 100vw;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(180deg, black, transparent);
+}
+
+.logo {
+    position: relative;
+    z-index: 1;
+}
+
+.navbut {
+    position: relative;
+    z-index: 1;
+}
+
+.right {
+    display: flex;
+}
+
+.lang {
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 7px 5px 7px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(135, 134, 134);
+    cursor: pointer;
+}
+
+.sgn {
+    background: rgb(229, 9, 20);
+    width: 90px;
+    color: white;
+    border: 1px solid rgb(135, 134, 134);
+    cursor: pointer;
+}
+
+button {
+    border-radius: 5px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.centre {
+    color: white;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 350px 20px 350px;
+    flex-wrap: wrap;
+}
+
+.first {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.second {
+    padding: 20px;
+    font-size: x-large;
+}
+
+.third {
+    text-align: center;
+    font-family: Poppins;
+    font-size: medium;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.561);
+    color: white;
+    border: 1px solid rgb(135, 134, 134);
+    padding: 3px 15px 3px 10px;
+    height: 50px;
+    width: 350px;
+    border-radius: 4px;
+    font-size: large;
+}
+
+.gs {
+    position: relative;
+    z-index: 1;
+    height: 54px;
+    width: 200px;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-weight: 500;
+    background: rgb(229, 9, 20);
+    color: white;
+    border: 1px solid rgb(135, 134, 134);
+    margin-left: 10px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.red {
+    position: relative;
+    
+    margin-top: 130px;
+    bottom: 0px;
+    z-index: 1;
+    height: 150px;
+    background: linear-gradient(to right,
+            rgba(33, 13, 22, 1) 16%,
+            rgba(184, 40, 105, 1),
+            rgba(229, 9, 20, 1),
+            rgba(184, 40, 105, 1),
+            rgba(33, 13, 22, 1) 84%);
+    border-top-left-radius: 40% 50px;
+    border-top-right-radius: 40% 50px;
+    overflow: hidden;
+}
+
+.curve{
+    position: relative;
+    z-index: 5;
+    bottom: 0;
+    margin-top: 5px;
+    height: 150px;
+    background: radial-gradient(50% 500% at 50% -420%,
+            rgba(64, 97, 231, 0.4) 80%,
+            rgba(0, 0, 0, 0.1) 100%), black;
+    border-top-left-radius: 40% 50px;
+    border-top-right-radius: 40% 50px;
+    overflow: hidden;
+}
+
+.Trending{
+    position: relative;
+    z-index: 5;
+    height: 50px;
+    width: 100vw;
+    padding-left: 150px;
+    color: white;
+    font-family: Poppins;
+    font-size: x-large;
+}
+
+.boxes{
+    display: flex;
+    color: white;
+    
+}
+
+.boxes1{
+    border: 1px solid white;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid rgb(135, 134, 134);
+    cursor: pointer;
+}
+
+.India{
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    font-family: Poppins;
+    padding: 5px 8px;
+    font-size: smaller;
+    font-weight: 400;
+}
+
+.Movies{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    font-family: Poppins;
+    padding: 5px 8px;
+    font-size: smaller;
+    font-weight: 400;
+}
+
+.images{
+    position: relative;
+    z-index: 5;
+    margin: 50px;
+    box-sizing: border-box;
+    /* width: 100vw; */
+    height: 268px;
+    /* background-color: aqua; */
+}
+
+ul li{
+    margin: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    overflow-x: scroll;
+    
+}
+
+ul::-webkit-scrollbar{
+    display: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.num{
+    position: relative;
+    bottom: 120px;
+    left: -15px;
+    color: black;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 6rem;
+    -webkit-text-stroke: 2px white;
+}
+
+.reason{
+    padding-left: 100px;
+    padding-top: 70px;
+    font-family: Poppins;
+    font-size: x-large;
+    font-weight: 500;
+    color: white;
+}
+
+.reasons{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    gap: 40px;
+}
+
+.boxestoo{
+    height: 325px;
+    width: 250px;
+    background: linear-gradient(135deg, rgb(27,33,67), rgb(31,15,23));
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: Poppins;
+    font-size: smaller;
+}
+
+.tvsvg{
+    position: relative;
+    bottom: -75px;
+    right: -135px;
+}
+
+.dldsvg{
+    position: relative;
+    bottom: -30px;
+    right: -135px;
+}
+
+.telsvg{
+    position: relative;
+    bottom: -90px;
+    right: -135px;
+}
+
+.kidsvg{
+    position: relative;
+    bottom: -40px;
+    right: -135px;
+}
+
+.faq{
+    color: white;
+    padding-left: 100px;
+    font-family: Poppins;
+}
+
+.questions{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.indiq{
+    display: flex;
+    height: 80px;
+    width: 75vw;
+    background-color: rgb(45, 45, 45);
+    margin: auto;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Poppins;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.ending{
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Poppins;
+}
+
+.qend{
+    color: rgb(135, 134, 134);
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-bottom: 70px;
+    font-family: Poppins;
+}
+
+.grid{
+    width: 100vw;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 100px;
+    padding-bottom: 70px;
+    gap: 10px;
+}
+
+a{
+    
+    color: rgb(135, 134, 134);
+}
+
+.engend{
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.endlang{
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 7px 5px 7px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(135, 134, 134);
+    cursor: pointer;
+}
+
+.NI{
+    color: rgb(135, 134, 134);
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
