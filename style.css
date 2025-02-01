@@ -23,7 +23,7 @@ body {
 
 header {
     background-image: url(BackgroundImage.jpg);
-    /* width: 100vw; */
+    
     height: 750px;
     /* position: absolute; */
     background-repeat: no-repeat;
